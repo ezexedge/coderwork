@@ -260,11 +260,11 @@ h3 {
     line-height: 1.4;
 }
 .vacante-descripcion *{
-    color: white!important;
+    color: black!important;
     line-height: 2.2;
 }
 .skills {
-    color: white;
+    color: black;
 }
 .skills li,
 .vacante-descripcion div  {
@@ -275,10 +275,10 @@ h3 {
 
 .enviar-datos h2 {
     font-size: 4rem;
-    color: white;
+    color: black;
 }
 .enviar-datos p {
-    color: white;
+    color: black;
     font-size: 1.8rem;
 }
 .enviar-datos form {
@@ -525,7 +525,7 @@ p.candidatos {
 }
 .datos-reclutador p {
     font-size: 2.4rem;
-    color: white;
+    color: black !important;
 }
 @media (min-width:768px){
     .enviar-datos {
@@ -537,10 +537,10 @@ p.candidatos {
 }
 .enviar-datos h2 {
     font-size: 4rem;
-    color: white;
+    color: black;
 }
 .enviar-datos p {
-    color: white;
+    color: black;
     font-size: 1.8rem;
 }
 

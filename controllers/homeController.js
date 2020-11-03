@@ -8,7 +8,7 @@ exports.mostrarTrabajos = async (req, res, next) => {
     if(!vacantes) return next();
 
     res.render('home', {
-        nombrePagina : 'devJobs',
+        nombrePagina : 'Encuentra y Pública Trabajos para Desarrolladores Web',
         tagline: 'Encuentra y Pública Trabajos para Desarrolladores Web',
         barra: true,
         boton: true,

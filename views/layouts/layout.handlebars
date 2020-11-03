@@ -18,8 +18,8 @@
 
         {{#if barra}}
             <div class="buscador">
-                <form action="/buscador" method="POST">
-                    <input type="text" name="q" class="buscar">
+                <form action="/buscador"  method="POST">
+                    <input type="text"  placeholder="ingrese ej: react"" name="q" class="buscar">
                     <input type="submit" value="Buscar">
                 </form>
             </div>
@@ -38,8 +38,8 @@
     </div>
 
     <header class="site-header contenedor separador">
-        {{#if tagline}}
-            <p class="tagline">{{tagline}}</p>
+        {{#if nombrePagina}}
+            <p class="tagline">{{nombrePagina}}</p>
         {{/if}}
 
         {{#if boton}}
